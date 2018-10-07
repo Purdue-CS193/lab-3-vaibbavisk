@@ -22,7 +22,7 @@ public class StringUtils {
             Ex: res = "SFlannery"
                     --> res = "SFlanner"
          */
-        res.toLowerCase();
+        res = res.toLowerCase();
         if (res.length()>=8){
         res.substring(0, 8);
         }
@@ -36,7 +36,6 @@ public class StringUtils {
          */
 
         /* return the result of our calculation */
-        res.toLowerCase();
         return res;
     }
 
